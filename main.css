@@ -9,7 +9,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
 }
 
 .main-content {
@@ -23,29 +22,29 @@ body {
 }
 
 @media (max-width: 800px) {
-    .main-content{
-        width: 100%;
-    }
+  .main-content {
+    width: 100%;
+  }
 }
 
 @media (max-width: 405px) {
-    .input-content{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    .task-input{
-        text-align: center;
-    }
+  .input-content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .task-input {
+    text-align: center;
+  }
 }
 .input {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    background-color: #eee;
-    padding: 20px;
-    border-radius: 10px;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: #eee;
+  padding: 20px;
+  border-radius: 10px;
+  align-items: center;
 }
 .tasks {
   display: flex;
@@ -99,14 +98,14 @@ body {
   width: 80px;
   cursor: pointer;
 }
-.task-input{
-    flex: 1;
-    padding: 5px;
-    font-size: 20px;
-    border: none;
+.task-input {
+  flex: 1;
+  padding: 5px;
+  font-size: 20px;
+  border: none;
 }
 
-.task-input:focus{
-    border: none;
-    outline: none;
+.task-input:focus {
+  border: none;
+  outline: none;
 }
