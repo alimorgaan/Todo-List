@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Cairo", sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.main-content {
+  padding: 20px;
+  /* background-color: rgb(184, 238, 239); */
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 800px;
+}
+.input {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #eee;
+    padding: 20px;
+    border-radius: 10px;
+    align-items: center;
+}
+.tasks {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: #eee;
+  padding: 20px;
+  border-radius: 10px;
+  align-items: center;
+  height: 450px;
+  overflow-y: auto;
+}
+
+.input-content {
+  display: flex;
+  gap: 20px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.task {
+  display: flex;
+  gap: 20px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.delete {
+  background-color: crimson;
+  color: white;
+  padding: 5px 20px;
+  border-radius: 10px;
+  border: none;
+  width: 80px;
+  cursor: pointer;
+}
+
+.add {
+  background-color: limegreen;
+  color: white;
+  padding: 5px 20px;
+  border-radius: 10px;
+  border: none;
+  width: 80px;
+  cursor: pointer;
+}
+.task-input{
+    flex: 1;
+    padding: 5px;
+    font-size: 20px;
+    border: none;
+}
+
+.task-input:focus{
+    border: none;
+    outline: none;
+}
