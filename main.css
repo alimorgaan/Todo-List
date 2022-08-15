@@ -21,6 +21,23 @@ body {
   gap: 20px;
   width: 800px;
 }
+
+@media (max-width: 800px) {
+    .main-content{
+        width: 100%;
+    }
+}
+
+@media (max-width: 405px) {
+    .input-content{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .task-input{
+        text-align: center;
+    }
+}
 .input {
     display: flex;
     flex-direction: column;
